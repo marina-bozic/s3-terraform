@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T11:23:35.678Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="8CaUggMEmzKWf-m31NPy" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T12:14:29.985Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="4zDg2iyckV47HwCilD4K" version="14.1.9" type="github">
   <diagram id="IK-KaruGwETLcyupu5-G" name="Page-1">
-    <mxGraphModel dx="1595" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1595" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uEJJgB1L5c5Y83ebcAIK-1" value="Relational Database&lt;br&gt;(MySQL)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="uEJJgB1L5c5Y83ebcAIK-1" value="Relational Database&lt;br&gt;(MySQL)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#CCFFCC;" vertex="1" parent="1">
           <mxGeometry x="119" y="150" width="220" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="uEJJgB1L5c5Y83ebcAIK-3" value="Interview creator BE&lt;br&gt;Account management BE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uEJJgB1L5c5Y83ebcAIK-3" value="Interview creator BE&lt;br&gt;Account management BE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="1">
           <mxGeometry x="120" y="300" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uEJJgB1L5c5Y83ebcAIK-4" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uEJJgB1L5c5Y83ebcAIK-3" target="uEJJgB1L5c5Y83ebcAIK-1">
@@ -16,10 +16,10 @@
             <mxPoint x="450" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uEJJgB1L5c5Y83ebcAIK-5" value="NoSQL Database&lt;br&gt;(MongoDB)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="uEJJgB1L5c5Y83ebcAIK-5" value="NoSQL Database&lt;br&gt;(MongoDB)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="520" y="150" width="220" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="uEJJgB1L5c5Y83ebcAIK-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uEJJgB1L5c5Y83ebcAIK-6" value="Interview saver BE&lt;br&gt;Interview reader BE&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="1">
           <mxGeometry x="521" y="300" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uEJJgB1L5c5Y83ebcAIK-7" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uEJJgB1L5c5Y83ebcAIK-6" target="uEJJgB1L5c5Y83ebcAIK-5">
@@ -27,6 +27,45 @@
             <mxPoint x="801" y="440" as="sourcePoint" />
             <mxPoint x="851" y="390" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uEJJgB1L5c5Y83ebcAIK-8" value="Job Interview FE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="119" y="500" width="621" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uEJJgB1L5c5Y83ebcAIK-9" value="" style="endArrow=classic;html=1;entryX=0.368;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uEJJgB1L5c5Y83ebcAIK-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="201" y="500" as="sourcePoint" />
+            <mxPoint x="500" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uEJJgB1L5c5Y83ebcAIK-10" value="GET, POST, PUT" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="uEJJgB1L5c5Y83ebcAIK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uEJJgB1L5c5Y83ebcAIK-11" value="HTTP" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="uEJJgB1L5c5Y83ebcAIK-9">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uEJJgB1L5c5Y83ebcAIK-12" value="" style="endArrow=classic;html=1;entryX=0.366;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.777;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uEJJgB1L5c5Y83ebcAIK-8" target="uEJJgB1L5c5Y83ebcAIK-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="211" y="510" as="sourcePoint" />
+            <mxPoint x="210.96000000000004" y="411.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uEJJgB1L5c5Y83ebcAIK-13" value="GET, POST, PUT" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="uEJJgB1L5c5Y83ebcAIK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uEJJgB1L5c5Y83ebcAIK-14" value="HTTP" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="uEJJgB1L5c5Y83ebcAIK-12">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uEJJgB1L5c5Y83ebcAIK-15" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uEJJgB1L5c5Y83ebcAIK-3" target="uEJJgB1L5c5Y83ebcAIK-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="221" y="520" as="sourcePoint" />
+            <mxPoint x="220.96000000000004" y="421.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uEJJgB1L5c5Y83ebcAIK-16" value="GET, POST, PUT" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="uEJJgB1L5c5Y83ebcAIK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uEJJgB1L5c5Y83ebcAIK-17" value="HTTP" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="uEJJgB1L5c5Y83ebcAIK-15">
+          <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
