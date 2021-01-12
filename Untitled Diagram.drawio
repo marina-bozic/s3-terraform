@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T16:02:35.902Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="akdYBjiugYCL5-Y4dqW5" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T16:02:55.564Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="4zF2HujMzjteC4mT1oCq" version="14.1.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1595" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -418,8 +418,8 @@
         <mxCell id="lG_jNB0VP-C-M7HmCv3o-124" value="created" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1230" y="790" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lG_jNB0VP-C-M7HmCv3o-126" value="status" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1230" y="820" width="140" height="30" as="geometry" />
+        <mxCell id="lG_jNB0VP-C-M7HmCv3o-126" value="status (ACTIVE, INACTIVE)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1230" y="820" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lG_jNB0VP-C-M7HmCv3o-127" value="account_type (MASTER, EMPLOYEE, INTERVIEWEE)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1230" y="850" width="230" height="30" as="geometry" />
